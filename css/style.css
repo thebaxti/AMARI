@@ -1922,7 +1922,6 @@ h2 .contacts-shadow {
         margin-bottom: 47px;
         position: relative;
         z-index: 2;
-        width: max-content;
         height: max-content;
     }
 
@@ -2148,7 +2147,10 @@ h2 .contacts-shadow {
     .price-cards {
         padding: 0 20px 30px;
     }
-
+    .price a {
+        max-width: 286px;
+        text-align: center;
+    }
     .price h3 {
         font-family: 'Noir';
         font-style: normal;
@@ -2159,7 +2161,7 @@ h2 .contacts-shadow {
         text-transform: uppercase;
         color: #FFFFFF;
         position: relative;
-        width: max-content;
+        max-width: 286px;
         height: max-content;
         margin: 0;
         z-index: 100;
@@ -2388,7 +2390,8 @@ h2 .contacts-shadow {
         text-align: start !important;
     }
     .our-story h3 {
-        text-align: start !important;
+        text-align: center !important;
+        max-width: 286px;
     }
     .company-words h4 {
         font-size: 18px;
